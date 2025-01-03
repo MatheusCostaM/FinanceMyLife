@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar {
+
+    height: 8%;
+    width: 100%;
+    background-color: black;
+    align-content: center;
+    text-align: center;
+    position: fixed
+}
+
+.namelogo {
+    height: 80%;
+
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    background-image: url('img/background.png');
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.divbody {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.divbody img {
+    width: 60%;
+    margin: 2vh;
+}
+
+.textconteiner {
+    width: 100%;
+}
+
+.titulo1 {
+
+    font-size: 2.8vw;
+    Letter-spacing: 0.1vw;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    margin: 2.5vh;
+}
+
+.formulario {
+    height: fit-content;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3vw;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#formulariologin {
+    display: flex;
+}
+
+#formulariocadastrar {
+    display: none;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+#formulariorecuperar {
+    display: none;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.containerbutton {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.insert {
+    border-radius: 2vw;
+    border-color: white;
+    border-width: 0.3vw;
+    border-style: solid;
+    background: none;
+    width: 95%;
+    height: fit-content;
+    color: white;
+    font-family: 'Share Tech Mono', cursive;
+    font-size: 1.5vw;
+    text-align: center;
+
+}
+
+.txtinsert {
+    font-family: 'Share Tech Mono', cursive;
+    color: white;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.clickavel:hover {
+    color: rgba(255, 255, 255, 0.68);
+    cursor: pointer;
+    border-color: rgba(255, 255, 255, 0.68);
+}
+
+.button {
+    font-family: 'Share Tech Mono', cursive;
+    color: white;
+    font-size: 1.5vw;
+    border-radius: 2vw;
+    border-color: white;
+    border-width: 0.2vw;
+    border-style: solid;
+    background: none;
+    padding: 0.5vw;
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+}
+
+.container {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#containercadastrar {
+    height: 15%;
+}

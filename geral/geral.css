@@ -1,0 +1,345 @@
+:root {
+    --cor1: #d7fff6;
+    --cor2: #54e2d0;
+    --cor3: #116d75;
+    --cor4: #0a434f;
+    --verde: #50FFB2;
+    --vermelho: #FB4769;
+    --preto: black;
+    --branco: white;
+
+    --financiamento: #fb7a47;
+    --gastos: var(--vermelho);
+    --lazer: var(--verde);
+    --investimento: #50a2ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo1 {
+
+    font-size: 2.3vw;
+    Letter-spacing: 0.1vw;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.margem {
+    margin: 2.5vh;
+}
+
+.txtinsert {
+    font-family: 'Share Tech Mono', cursive;
+    color: var(--branco);
+    font-size: 1vw;
+}
+
+.clickavel:hover {
+    color: var(--branco);
+    opacity: 0.6;
+    cursor: pointer;
+    border-color: rgba(255, 255, 255, 0.68);
+}
+
+.button {
+    font-family: 'Share Tech Mono', cursive;
+    color: var(--branco);
+    font-size: 1.5vw;
+    border-radius: 2vw;
+    border-color: var(--branco);
+    border-width: 0.2vw;
+    border-style: solid;
+    background: none;
+    padding: 0.5vw;
+    width: fit-content;
+}
+
+.container {
+    height: 60%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo2 {
+
+    font-size: 1.5vw;
+    Letter-spacing: 0.1vw;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--branco);
+    text-decoration: none;
+    text-shadow: 2px 2px 3px var(--preto);
+}
+
+#menulatatual {
+    background-color: var(--cor2);
+}
+
+.titulo3 {
+    font-size: 5vw;
+    Letter-spacing: 0.1vw;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--branco);
+    margin: 2vh;
+    text-decoration: none;
+    width: 20%;
+    height: 50%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    height: 8%;
+    width: 100%;
+    background-color: var(--preto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed
+}
+
+
+.menu {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.namelogo {
+    height: 80%;
+}
+
+.navbarconteiner {
+    height: 100%;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menulateralcontainer {
+    background-color: var(--cor4);
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.menulateral {
+
+    width: 100%;
+    height: 92%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.listamenlat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+    list-style: none;
+}
+
+.itensmenlat {
+    background-color: var(--cor3);
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+.img {
+    height: 80%;
+}
+
+.sair {
+    background-color: var(--vermelho);
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.geral {
+    background-color: var(--cor1);
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo {
+    width: 100%;
+    height: 22%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.filtro {
+    width: 30%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputfilter {
+    align-items: center;
+    text-align: center;
+}
+
+.filtrodata {
+    height: 80%;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.dashboard {
+    width: 80%;
+    height: 60%;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+
+.txtsombra {
+    text-shadow: 3px 3px 5px var(--preto);
+}
+
+.boxsombra {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+#graficoPizza {
+    display: block;
+    margin: auto;
+    background-color: transparent;
+    width: 80%;
+}
+
+.grafico {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerConteudos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-graficos {
+    width: 45%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containervalor {
+    width: 70%;
+    height: fit-content;
+    text-align: center;
+}
+
+.container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.containerGraficoPilha {
+    justify-content: end;
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+
+}
+
+.graficoPilha {
+    width: 100%;
+}
+
+#graficoPilha1 {
+    background-color: var(--investimento);
+    height: 50%;
+}
+
+#graficoPilha2 {
+    background-color: var(--gastos);
+    height: 50%;
+}
+
+#graficoPilha3 {
+    background-color: var(--lazer);
+    height: 50%;
+}
+
+#graficoPilha4 {
+    background-color: var(--financiamento);
+    height: 50%;
+}
+
+.financiamento {
+    color: var(--financiamento);
+}
+
+.gastos {
+    color: var(--gastos);
+}
+
+.lazer {
+    color: var(--lazer);
+}
+
+.investimento {
+    color: var(--investimento);
+}
