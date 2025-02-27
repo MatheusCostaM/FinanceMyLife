@@ -42,3 +42,5 @@ O banco de dados contém várias tabelas, incluindo, mas não se limitando a:
 ### Conexão com o Banco de Dados
 
 A conexão com o banco de dados é feita através do arquivo `includes/db_connect.php`, que define as credenciais do banco e a conexão necessária para realizar as operações de leitura e escrita.
+
+Só faltou o sql para gerar o banco e tabelas
