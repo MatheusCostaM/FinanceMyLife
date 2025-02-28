@@ -1,21 +1,30 @@
 # FinanceMyLife
 
+![printinicial](./img/imageinicial.png)
+
 **FinanceMyLife** é uma aplicação web projetada para ajudar os usuários a gerenciar suas finanças pessoais. O sistema permite que os usuários definam metas financeiras e monitorem seu progresso em várias áreas, como **Gastos**, **Investimentos**, **Lazer**, e **Financiamento**.
 
 O site utiliza **PHP** para gerenciar o backend, com integração com um **banco de dados MySQL** para armazenar informações dos usuários e suas metas financeiras. A interação com o sistema é facilitada através de **JavaScript**, permitindo uma experiência dinâmica e reativa, onde as alterações feitas pelo usuário no frontend são refletidas no banco de dados e vice-versa.
 
 ## Funcionalidades
 
+![printinicial](./img/imagemetas.png)
+
 - **Definir Metas**: Permite ao usuário estabelecer metas financeiras para diferentes categorias, como:
   - Gastos
   - Investimentos
   - Lazer
   - Financiamento
+
+![printgeral](./img/imagegeral.png)
+
 - **Ajuste de Percentuais**: O usuário pode ajustar as porcentagens mínimas e máximas de suas metas financeiras.
 - **Integração Dinâmica**: O sistema usa **JavaScript** para interação com o frontend, realizando atualizações em tempo real. O JS envia dados para o backend PHP, que processa as alterações no banco de dados MySQL.
 - **Exibição de Dados**: O PHP recupera os dados do banco de dados e os envia para o frontend, onde são renderizados pelo JavaScript.
 - **Login Seguro**: A aplicação possui autenticação de usuário, garantindo que as metas financeiras sejam associadas corretamente a cada usuário.
 - **Painel de Controle**: Exibe o progresso de cada meta financeira de forma visual, com gráficos ou controles deslizantes.
+
+![printgeral](./img/imagelancamentos.png)
 
 ## Tecnologias Utilizadas
 
