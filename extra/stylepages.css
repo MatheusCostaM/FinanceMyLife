@@ -1,0 +1,363 @@
+:root {
+    --cor1: #d7fff6;
+    --cor2: #54e2d0;
+    --cor3: #116d75;
+    --cor4: #0a434f;
+    --verde: #50FFB2;
+    --vermelho: #FB4769;
+    --preto: black;
+    --branco: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    width: 100%;
+    height: 22%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.titulo1 {
+
+    font-size: 2.3vw;
+    Letter-spacing: 0.1vw;
+    font-family: 'Bebas Neue', Sans-serif;
+    color: var(--branco);
+    margin: 2.5vh;
+    text-decoration: none;
+}
+
+.titulo2 {
+    font-size: 1.3vw;
+    margin: 0.5vh;
+    font-family: 'Bebas Neue', Sans-serif;
+    color: var(--branco);
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+
+.titulo3 {
+    font-family: 'Bebas Neue', Sans-serif;
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 5vw;
+    Letter-spacing: 0.1vw;
+}
+
+.txtinsert {
+    font-family: 'Share Tech Mono', cursive;
+    color: var(--branco);
+    font-size: 1vw;
+}
+
+.clickavel:hover {
+    color: var(--branco);
+    opacity: 0.6;
+    cursor: pointer;
+    border-color: rgba(255, 255, 255, 0.68);
+}
+
+.clickavel2:hover {
+    color: rgb(61, 61, 61);
+    opacity: 0.6;
+    cursor: pointer;
+    border-color: rgba(255, 255, 255, 0.68);
+}
+
+.container {
+    height: 60%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#menulatatual {
+    background-color: var(--cor2);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    height: 8%;
+    width: 100%;
+    background-color: var(--preto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed
+}
+
+
+.menu {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.namelogo {
+    height: 80%;
+}
+
+.navbarconteiner {
+    height: 100%;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menulateralcontainer {
+    background-color: var(--cor4);
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.menulateral {
+
+    width: 100%;
+    height: 92%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.listamenlat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+    list-style: none;
+}
+
+.itensmenlat {
+    background-color: var(--cor3);
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+.img {
+    height: 80%;
+}
+
+.sair {
+    background-color: var(--vermelho);
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.geral {
+    background-color: var(--cor1);
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#dashboard {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.315);
+    overflow-y: auto
+}
+
+.dashboard::-webkit-scrollbar {
+    width: 0.7vw;
+}
+
+.dashboard::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.dashboard::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 1vw;
+}
+
+.dashboard::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.txtsombra {
+    text-shadow: 3px 3px 5px var(--preto);
+}
+
+.boxsombra {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.registro {
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--branco);
+    width: 96%;
+    height: 10%;
+    min-height: 10%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5%;
+    color: var(--preto);
+}
+
+#registro0 {
+    display: none;
+}
+
+.inputform {
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    height: 80%;
+    font-weight: bold;
+    outline: none;
+}
+
+.inputform::placeholder {
+    color: var(--preto);
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+.inputtitulo {
+    width: 30%;
+}
+
+.filtro {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputfilter {
+    align-items: center;
+    text-align: center;
+}
+
+.filtrodata {
+    height: 80%;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.total {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.totalpainel {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    background-color: var(--branco);
+    justify-content: center;
+    align-items: center;
+}
+
+.delete {
+    color: var(--vermelho);
+}
+
+.id {
+    display: none;
+}
+
+#adicionar {
+    height: 100%;
+}
+
+.containeractions {
+    height: 10%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.button {
+    font-family: 'Bebas Neue', cursive;
+    Letter-spacing: 0.1vw;
+    color: var(--branco);
+    font-size: 1.7vw;
+    border-radius: 2vw;
+    border-color: var(--branco);
+    border-width: 0.2vw;
+    border-style: solid;
+    background: none;
+    padding: 0.5vw;
+    width: fit-content;
+}
+
+.background {
+    background-color: var(--cor3);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.containersobre {
+    width: 85%;
+    height: 70%;
+}
+
+.txtsobre{
+    font-size: 2vw;
+    Letter-spacing: 0.1vw;
+    font-family: 'Bebas Neue', Sans-serif;
+    color: var(--branco);
+    margin: 2.5vh;
+    text-decoration: none;
+}
+
+.video {
+    height: 90%;
+}
